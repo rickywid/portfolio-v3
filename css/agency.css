@@ -932,24 +932,36 @@ li {
     color: #fec503;
 }
 
-@media screen and (min-width: 300px){
+@media screen and (min-width: 200px){
     .skill, .career, .about {
         margin-bottom: 50px;
         background-color: white;
     }
 
-    .skills-left {
-        font-size: 25px;
+    .skills-left, .skills-right{
+        font-size: 15px;
         text-align: left;
         display: inline-block;
+    }
+
+    .skills-right {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (min-width: 335px){
+    
+    .skills-left, .skills-right{
+        font-size: 0.6em;
+        text-align: left;
+        display: inline-block;        
+    }
+    
+    .skills-left {        
         padding-bottom: 50px;
-        border-bottom: 1px dashed black;
     }
     .skills-right {
         padding-top: 50px;
-        font-size: 25px;
-        text-align: left;
-        display: inline-block;
     }
 }
 
