@@ -942,10 +942,7 @@ li {
         font-size: 15px;
         text-align: left;
         display: inline-block;
-    }
-
-    .skills-right {
-        padding-top: 50px;
+        margin-top: 50px;
     }
 }
 
@@ -956,7 +953,11 @@ li {
         text-align: left;
         display: inline-block;        
     }
-
+    
+    .skills-left {        
+        padding-bottom: 50px;
+    }
+    .skills-right {
 }
 
 @media screen and (min-width: 530px){
