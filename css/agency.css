@@ -956,13 +956,7 @@ li {
         text-align: left;
         display: inline-block;        
     }
-    
-    .skills-left {        
-        padding-bottom: 50px;
-    }
-    .skills-right {
-        padding-top: 50px;
-    }
+
 }
 
 @media screen and (min-width: 530px){
