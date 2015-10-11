@@ -252,11 +252,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/replicas.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/movies.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>SITE REPLICAS</h4>
-                        <p class="text-muted">HTML/CSS</p>
+                        <h4>Movies Review</h4>
+                        <p class="text-muted">Ruby on Rails</p>
                     </div>
                 </div>
             </div>
@@ -502,16 +502,18 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>SITE REPLICAS</h2>
-                            <p class="item-intro text-muted">HTML/CSS</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/replicas.png" alt="">
-                            After learning basic HTML and CSS, I wanted to practice by replicating some of the sites seen online. My focus was to learn how to create a basic site layout using float, display and position CSS properties. I used the Google homepage as an example because of its simple layout and the Google search result as my second site to get familiar making two column layouts with a header and footer. The Mint site replica was made to practice creating a sign up form layout.
+                            <h2>Movies Review</h2>
+                            <p class="item-intro text-muted">Ruby on Rails</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/thumb-movies.png" alt="">
+                            For this project I used several different gems to put the site together. Devise was used for user authentication/authorization, Simple Forms to create the forms, Paperclip to allow file attachments along with bootstrap and haml. Getting search certain features to work on Heroku turned out to be troublesome.
+
+                            First, Heroku doesn't allow data storage on their servers (for free account users as far as I know) so I signed up for Amazon's AWS S3 cloud storage to allow the file attachments to work.
+    
+                            Second, I had originally had a search functionality to search movies on the site. I used ElasticSearch for this feature and after extensive troubleshooting and frustration as to why is was working on my local machine but not working on Heroku, I found out that you needed to pay in order to use ElasticSearch with Heroku's services. So unfortunately I had to remove the search function (works locally only).
+
+                            Overall, I learned a lot about Rails and I feel I made great strides by completing this project.
                             </p>
-                           <a class="btn btn-primary" href="http://rickywid.github.io/google-replica" class="view" target="_blank">Google Homepage Demo</a>  
-                           <a class="btn btn-primary" href="http://rickywid.github.io/google-search-replica" class="view" target="_blank">Google Search Demo</a> 
-                           <a class="btn btn-primary" href="http://rickywid.github.io/mint-replica" class="view" target="_blank">Mint Sign Up Demo</a>  
-                            <br>
-                            <br>  
+                           <a class="btn btn-primary" href="https://sheltered-hollows-8430.herokuapp.com/" class="view" target="_blank">View Project</a>    
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
