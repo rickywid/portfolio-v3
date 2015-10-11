@@ -507,9 +507,12 @@
                             <img class="img-responsive img-centered" src="img/portfolio/thumb-movies.png" alt="">
                             For this project I used several different gems to put the site together. Devise was used for user authentication/authorization, Simple Forms to create the forms, Paperclip to allow file attachments along with bootstrap and haml. Getting search certain features to work on Heroku turned out to be troublesome.
                             <br>
+                            <br>
                             First, Heroku doesn't allow data storage on their servers (for free account users as far as I know) so I signed up for Amazon's AWS S3 cloud storage to allow the file attachments to work.
                             <br>
+                            <br>
                             Second, I had originally had a search functionality to search movies on the site. I used ElasticSearch for this feature and after extensive troubleshooting and frustration as to why is was working on my local machine but not working on Heroku, I found out that you needed to pay in order to use ElasticSearch with Heroku's services. So unfortunately I had to remove the search function (works locally only).
+                            <br>
                             <br>
                             Overall, I learned a lot about Rails and I feel I made great strides by completing this project.
                             </p>
