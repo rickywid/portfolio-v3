@@ -5757,7 +5757,7 @@ button.close {
 }
 .modal-content {
   position: relative;
-  background-color: #fff;
+  background-color: #8E8E8E;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #999;
@@ -5774,7 +5774,6 @@ button.close {
   bottom: 0;
   left: 0;
   z-index: 1040;
-  background-color: #000;
 }
 .modal-backdrop.fade {
   filter: alpha(opacity=0);
@@ -5798,7 +5797,6 @@ button.close {
 }
 .modal-body {
   position: relative;
-  padding: 15px;
 }
 .modal-footer {
   padding: 15px;

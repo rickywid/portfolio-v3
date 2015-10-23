@@ -11,6 +11,7 @@ body {
 
 .text-muted {
     color: #777;
+    font-weight: bold;
 }
 
 .text-primary {
@@ -61,7 +62,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: rgba(72, 72, 72, 1);
 }
 
 .bg-darkest-gray {
@@ -280,6 +281,7 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    color: #fed136;
 }
 
 header .intro-text .intro-lead-in {
@@ -324,13 +326,17 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 85px 0;
 }
 
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    border-radius:100px;
+    padding: 7px;
+    border: 1px solid rgba(190, 232, 149, 1);
+    color: rgba(190, 232, 149, 1);
 }
 
 section h3.section-subheading {
@@ -344,7 +350,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 85px 0;
     }
 }
 
@@ -405,7 +411,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: rgba(190, 232, 149, 1);
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -780,11 +786,16 @@ ul.social-buttons li a:active {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-color: #ECECEC;
+
 }
 
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
+    border: 1px solid grey;
+    border-radius: 100px;
+    padding: 7px;
 }
 
 .portfolio-modal .modal-content p {
@@ -926,16 +937,45 @@ li {
     padding-left: 10px;
 }
 
-.intro-text {
+.highlight {
     font-weight: bold;
     size: 15px;
-    color: #fec503;
+    background-color: yellow;
+    padding: 2px 5px;
 }
 
+#bio {
+    background-color: rgb(145, 157, 91);
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+#skills {
+    color: black;
+    border: none;
+}
+
+.project-info {
+    padding: 20px 20px 50px 20px;
+    background-color: rgb(216, 216, 216);
+    border-left: 15px solid #fed136;
+    font-weight: bold;
+}
+
+#proj1 { border-bottom: 8px solid rgb(255, 107, 133); }
+#proj2 { border-bottom: 8px solid rgb(237, 234, 16); }
+#proj3 { border-bottom: 8px solid rgb(139, 140, 250); }
+#proj4 { border-bottom: 8px solid rgb(203, 91, 240); }
+#proj5 { border-bottom: 8px solid rgb(80, 228, 70); }
+#proj6 { border-bottom: 8px solid rgb(255, 129, 74); }
+#proj7 { border-bottom: 8px solid rgb(253, 127, 4); }
+#proj8 { border-bottom: 8px solid rgb(70, 152, 127); }
+#proj9 { border-bottom: 8px solid rgb(232, 101, 101); }
+
+f
 @media screen and (min-width: 200px){
     .skill, .career, .about {
         margin-bottom: 50px;
-        background-color: white;
     }
 
     .skills-left, .skills-right{
@@ -944,6 +984,13 @@ li {
         display: inline-block;
         margin-top: 50px;
     }
+
+    .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 }
 
 @media screen and (min-width: 335px){
