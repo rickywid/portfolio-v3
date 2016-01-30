@@ -916,12 +916,10 @@ li {
 }
 .skills-left {
     font-size: 25px;
-    text-align: right;
     display: inline-block;
 }
 .skills-right {
     font-size: 25px;
-    text-align: left;
     display: inline-block;
 }
 
@@ -957,7 +955,7 @@ li {
     font-weight: bold;
     size: 15px;
     background-color: yellow;
-    padding: 2px 5px;
+    padding: 0px 2px;
 }
 
 #bio {
