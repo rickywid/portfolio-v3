@@ -122,9 +122,9 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 20px 40px;
+    padding: 15px 35px;
     border-color: #fed136;
-    border-radius: 3px;
+    border-radius: 0px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #444343;
     background-attachment: scroll;
-    background-image: url(../img/P8100011.jpg);
+    background-image: url(../img/IMG_0184.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -319,7 +319,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 55px;
         font-weight: 700;
         line-height: 75px;
     }
