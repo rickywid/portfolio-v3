@@ -1038,7 +1038,7 @@ f
 @media screen and (min-width: 990px){
     .skills-left {
         font-size: 25px;
-        text-align: right;
+        text-align: left;
         display: inline-block;
         padding-bottom: 0;
     }
