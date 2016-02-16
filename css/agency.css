@@ -349,9 +349,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
-    border-radius:100px;
     padding: 7px;
-    border: 1px solid rgba(190, 232, 149, 1);
     color: rgba(190, 232, 149, 1);
 }
 
@@ -762,28 +760,19 @@ footer ul.quicklinks {
 }
 
 ul.social-buttons {
-    margin-bottom: 0;
+    margin-bottom: 70px;
 }
 
 ul.social-buttons li a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
-    outline: 0;
-    color: #fff;
-    background-color: #222;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
+    color: #000;
     transition: all .3s;
 }
 
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    text-decoration: none;
+    color: #aaa;
 }
 
 .btn:focus,
@@ -943,7 +932,7 @@ li {
 }
 
 .email {
-    border-right: 1px solid black;
+    
     padding-right: 10px;    
 }
 
@@ -1057,3 +1046,49 @@ a.view:hover {
     color: white;
     background-color: #fec503;
 }   
+
+.glyphicon-arrow-right{
+    margin-left: 20px;
+}
+
+.glyphicon-plus{
+    margin-right: 15px;
+    font-size: 8px;
+}
+
+.skills {
+    padding: 15px;
+    background-color: rgb(254, 209, 54);
+    box-shadow: -5px 10px 0px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+
+.skills li {
+    font-weight: bold;
+}
+
+.history {
+    background-color: rgb(247, 102, 102);
+    padding: 20px 20px 29px 20px;
+    box-shadow: -5px 10px 0px 0px rgba(0,0,0,0.75);
+}
+
+.whats-next {
+    background-color: #61C0FF;
+    padding: 15px;
+    box-shadow: -5px 10px 0px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+
+.profile {
+    box-shadow: -5px 10px 0px 0px rgba(0,0,0,0.75);
+}
+
+.fa-envelope,
+.fa-github {
+    color: #000;
+}
+
+.fa-github {
+    font-size: 200px;
+}
