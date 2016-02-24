@@ -351,6 +351,7 @@ section h2.section-heading {
     font-size: 40px;
     padding: 7px;
     color: rgba(190, 232, 149, 1);
+    width: 100%;
 }
 
 section h3.section-subheading {
@@ -798,13 +799,12 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
-    border: 1px solid grey;
-    border-radius: 100px;
     padding: 7px;
 }
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
+    text-align: left;
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -812,6 +812,7 @@ ul.social-buttons li a:active {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+    text-align: center;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -1095,4 +1096,8 @@ a.view:hover {
 
 .main {
     background-color: grey;
+}
+
+.categories {
+    color: rgb(218, 218, 218);
 }
