@@ -805,6 +805,8 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
     text-align: left;
+    font-size: 96%;
+    word-spacing: 5px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -960,10 +962,9 @@ li {
 }
 
 .project-info {
-    padding: 20px 20px 50px 20px;
-    background-color: rgb(216, 216, 216);
-    border-left: 15px solid #fed136;
-    font-weight: bold;
+    padding: 36px;
+    background-color: rgb(245, 245, 245);
+    border-left: 1px solid #C2C2C2;
 }
 
 /*#proj1 { border-bottom: 8px solid rgb(255, 107, 133); }
@@ -1099,4 +1100,8 @@ a.view:hover {
 
 .categories {
     color: rgb(218, 218, 218);
+}
+
+.modal-body {
+    padding-top: 0;
 }
