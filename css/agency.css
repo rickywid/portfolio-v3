@@ -62,7 +62,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: rgba(72, 72, 72, 1);
+    background-color: rgba(39, 34, 34, 1);
 }
 
 .bg-darkest-gray {
@@ -350,7 +350,7 @@ section h2.section-heading {
     margin-bottom: 15px;
     font-size: 40px;
     padding: 7px;
-    color: rgba(190, 232, 149, 1);
+    color: rgba(231, 231, 231, 1);
     width: 100%;
 }
 
@@ -426,12 +426,14 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: rgba(190, 232, 149, 1);
+    background-color: rgba(247, 102, 102, 1);
+    border-bottom: 5px solid rgba(210, 60, 60, 1);
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
+    color: #fff;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
@@ -742,7 +744,8 @@ section#contact .text-danger {
 
 footer {
     padding: 25px 0;
-    text-align: center;
+    text-align: right;
+    background-color: black;
 }
 
 footer span.copyright {
@@ -1104,4 +1107,8 @@ a.view:hover {
 
 .modal-body {
     padding-top: 0;
+}
+
+.text-muted-caption {
+    color: #FFD2D2;
 }
