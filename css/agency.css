@@ -966,7 +966,7 @@ li {
     font-weight: bold;
 }
 
-#proj1 { border-bottom: 8px solid rgb(255, 107, 133); }
+/*#proj1 { border-bottom: 8px solid rgb(255, 107, 133); }
 #proj2 { border-bottom: 8px solid rgb(237, 234, 16); }
 #proj3 { border-bottom: 8px solid rgb(139, 140, 250); }
 #proj4 { border-bottom: 8px solid rgb(203, 91, 240); }
@@ -974,9 +974,8 @@ li {
 #proj6 { border-bottom: 8px solid rgb(255, 129, 74); }
 #proj7 { border-bottom: 8px solid rgb(253, 127, 4); }
 #proj8 { border-bottom: 8px solid rgb(70, 152, 127); }
-#proj9 { border-bottom: 8px solid rgb(232, 101, 101); }
+#proj9 { border-bottom: 8px solid rgb(232, 101, 101); }*/
 
-f
 @media screen and (min-width: 200px){
     .skill, .career, .about {
         margin-bottom: 50px;
