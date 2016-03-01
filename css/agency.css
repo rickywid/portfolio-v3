@@ -1089,10 +1089,7 @@ a.view:hover {
     box-shadow: -5px 10px 0px 0px rgba(0,0,0,0.75);
 }
 
-.fa-envelope,
-.fa-github {
-    color: #000;
-}
+
 
 .fa-github {
     font-size: 200px;
@@ -1113,3 +1110,4 @@ a.view:hover {
 .text-muted-caption {
     color: #FFD2D2;
 }
+
