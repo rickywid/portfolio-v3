@@ -1062,25 +1062,30 @@ a.view:hover {
 }
 
 .skills {
-    padding: 15px;
+    padding: 5px 20px 20px 20px;
     background-color: rgb(254, 209, 54);
     box-shadow: -5px 10px 0px 0px rgba(0,0,0,0.75);
     margin-bottom: 20px;
 }
 
+.skills ul {
+    padding-left: 0;
+}
 .skills li {
     font-weight: bold;
 }
 
 .history {
     background-color: rgb(247, 102, 102);
-    padding: 20px 20px 29px 20px;
+    padding: 20px;
+    padding-top: 5px;
+    margin-bottom: 20px;
     box-shadow: -5px 10px 0px 0px rgba(0,0,0,0.75);
 }
 
 .whats-next {
     background-color: #61C0FF;
-    padding: 15px;
+    padding: 20px;
     box-shadow: -5px 10px 0px 0px rgba(0,0,0,0.75);
     margin-bottom: 20px;
 }

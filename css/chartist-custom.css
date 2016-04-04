@@ -1,0 +1,89 @@
+#skills {
+	 background: linear-gradient(12deg, black, rgb(38, 172, 182));
+}
+
+.chart-heading {
+	color: white;
+}
+
+.ct-series-a > .ct-bar {
+	stroke-width: 20px;
+	stroke: #EFE74A;
+}
+
+.ct-label {
+
+	font-size: .8em;
+	color: #fff;
+}
+
+.yAxis-desc {
+	width: 100%;
+	color: white;
+	opacity: .7;
+	margin-left: 14px;	
+}
+
+.experimental { text-align: center;}
+.comfortable { text-align: center;}
+.proficient { text-align: right;}
+
+@media screen and (max-width: 990px){
+	.ct-series-a > .ct-bar {
+		stroke-width: 12px;
+	}
+
+}
+
+@media screen and (max-width: 670px){
+	.ct-series-a > .ct-bar {
+		stroke-width: 10px;
+	}
+	.ct-label,
+	.yAxis-desc {
+		font-size: .7em;
+	}
+	.chart-heading {
+		font-size: .9em;
+	}
+}
+
+@media screen and (max-width: 550px){
+	.ct-series-a > .ct-bar {
+		stroke-width: 5px;
+	}
+	.ct-label,
+	.yAxis-desc {
+		font-size: .5em;
+	}	
+	.chart-heading {
+		font-size: .7em;
+	}
+	.experimental { text-align: center;}
+	.comfortable { text-align: center;}
+	.proficient { text-align: right;}	
+}
+
+@media screen and (max-width: 450px){
+
+	.experimental { text-align: right;}
+	.comfortable { text-align: right;}
+	.proficient { text-align: right;}
+}
+
+@media screen and (max-width: 400px){
+	.ct-series-a > .ct-bar {
+		stroke-width: 3px;
+	}
+	.ct-label,
+	.yAxis-desc {
+		font-size: .4em;
+	}	
+	.chart-heading {
+		font-size: .6em;
+	}	
+
+	.experimental {
+		text-align: right;
+	}
+}
