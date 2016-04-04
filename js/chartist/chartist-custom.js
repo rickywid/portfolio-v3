@@ -1,7 +1,7 @@
 new Chartist.Bar('.ct-chart', {
   labels: ['Wordpress', 'Git', 'Ruby on Rails', 'Photoshop', 'React', 'jQuery', 'Javascript', 'Responsive', 'CSS', 'HTML'],
   series: [
-    [4, 5, 3.5, 8, 4, 6, 6.5, 7, 8.5, 8.5],
+    [3, 5, 3.5, 8, 4, 6.5, 7, 8, 9, 9],
   ]
 }, {
 
