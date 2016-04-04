@@ -14,13 +14,15 @@
 .ct-label {
 
 	font-size: .8em;
+	font-weight: bold;
 	color: #fff;
 }
 
 .yAxis-desc {
 	width: 100%;
 	color: white;
-	opacity: .7;
+	opacity: .5;
+	font-size: .8em;
 	margin-left: 14px;	
 }
 
