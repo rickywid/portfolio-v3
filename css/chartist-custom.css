@@ -1,5 +1,5 @@
 #skills {
-	 background: linear-gradient(12deg, black, rgb(38, 172, 182));
+	 background: linear-gradient(0deg, rgb(58, 100, 105), rgb(28, 217, 232))
 }
 
 .chart-heading {
@@ -13,7 +13,7 @@
 
 .ct-label {
 
-	font-size: .8em;
+	font-size: 1em;
 	font-weight: bold;
 	color: #fff;
 }
@@ -26,9 +26,9 @@
 	margin-left: 14px;	
 }
 
-.experimental { text-align: center;}
-.comfortable { text-align: center;}
-.proficient { text-align: right;}
+.experimental { text-align: center; font-weight: bolder; font-size: 1.2em;}
+.comfortable { text-align: center; font-weight: bolder; font-size: 1.2em;}
+.proficient { text-align: right; font-weight: bolder; font-size: 1.2em;}
 
 @media screen and (max-width: 990px){
 	.ct-series-a > .ct-bar {

@@ -1078,7 +1078,7 @@ a.view:hover {
 
 .history {
     background-color: rgb(247, 102, 102);
-    padding: 20px;
+    padding: 32px;
     padding-top: 5px;
     margin-bottom: 20px;
     box-shadow: -5px 10px 0px 0px rgba(0,0,0,0.75);
@@ -1086,7 +1086,7 @@ a.view:hover {
 
 .whats-next {
     background-color: #61C0FF;
-    padding: 20px;
+    padding: 32px;
     box-shadow: -5px 10px 0px 0px rgba(0,0,0,0.75);
     margin-bottom: 20px;
 }
