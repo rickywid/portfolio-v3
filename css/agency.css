@@ -22,6 +22,7 @@ body {
 p {
     font-size: 14px;
     line-height: 1.75;
+    font-weight: bold;
 }
 
 p.large {
@@ -898,6 +899,10 @@ body {
 
 li {
     list-style: none;
+}
+
+.fa {
+    font-size: 2em;
 }
 
 .fa-star {
