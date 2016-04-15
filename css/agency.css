@@ -782,6 +782,12 @@ ul.social-buttons li a:active {
     color: #aaa;
 }
 
+ul.social-buttons > li > a > .fa-linkedin,
+ul.social-buttons > li > a > .fa-github,
+ul.social-buttons > li > .fa-envelope {
+    font-size: 2em;
+}
+
 .btn:focus,
 .btn:active,
 .btn.active,
