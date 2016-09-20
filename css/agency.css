@@ -4,6 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -272,16 +273,17 @@ header {
     color: #444343;
     background-attachment: scroll;
     background-image: url(../img/bg.jpg);
-    /*background-position: center center;*/
+    background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 100vh;
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 300px;
     padding-bottom: 50px;
     color: #fff;
 }
@@ -312,9 +314,9 @@ header .intro-text .intro-heading {
         margin-bottom: 107px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 353%;
+        font-size: 500%;
         font-weight: 700;
-        line-height: 35px;
+        line-height: 50px;
         opacity: 1;
     }
 }
