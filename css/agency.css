@@ -268,11 +268,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    text-align: center;
+    /*text-align: center;*/
     color: #444343;
     background-attachment: scroll;
-    background-image: url(../img/IMG_0184.jpg);
-    background-position: center center;
+    background-image: url(../img/bg.jpg);
+    /*background-position: center center;*/
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -283,7 +283,7 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    color: #fed136;
+    color: #fff;
 }
 
 header .intro-text .intro-lead-in {
@@ -298,23 +298,24 @@ header .intro-text .intro-heading {
     margin-bottom: 107px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 120%;
+    font-size: 300%;
     font-weight: 700;
-    line-height: 137px;
-    opacity: 0.7;
+    line-height: 28px;
+    opacity: 1;
 }
 
 
 /* add larger font-size when viewed in landscape */
 @media screen and (orientation: landscape){
+
     header .intro-text .intro-heading {
         margin-bottom: 107px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 270%;
+        font-size: 353%;
         font-weight: 700;
-        line-height: 137px;
-        opacity: 0.7;
+        line-height: 35px;
+        opacity: 1;
     }
 }
 
@@ -336,10 +337,10 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 79px;
+        font-size: 117px;
         font-weight: 700;
         line-height: 80px;
-        opacity: 0.7;
+        opacity: 1;
     }
 }
 
@@ -1128,3 +1129,12 @@ a.view:hover {
     color: #FFD2D2;
 }
 
+.stop {
+    color: #fed136;
+}
+
+@media screen and(min-width: 0px) {
+    .stop {
+        color: #fed136;
+    }
+}
