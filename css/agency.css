@@ -310,6 +310,25 @@ header .intro-text .intro-heading {
 /* add larger font-size when viewed in landscape */
 @media screen and (orientation: landscape){
 
+    header {
+        /*text-align: center;*/
+        color: #444343;
+        background-attachment: scroll;
+        background-image: url(../img/bg.jpg);
+        /*background-position: center center;*/
+        background-repeat: none;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        height: 100vh;
+    }
+    header .intro-text {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        color: #fff;
+    }
+
     header .intro-text .intro-heading {
         margin-bottom: 107px;
         text-transform: uppercase;
