@@ -315,7 +315,7 @@ header .intro-text .intro-heading {
         color: #444343;
         background-attachment: scroll;
         background-image: url(../img/bg.jpg);
-        /*background-position: center center;*/
+        background-position: center top;
         background-repeat: none;
         -webkit-background-size: cover;
         -moz-background-size: cover;
